@@ -11,10 +11,26 @@ enum WebEvent {
     Click { x: i64, y: i64 },
 }
 
+enum Status {
+    Rich,
+    Poor,
+}
+
 pub fn enum_example() {
+    use crate::Status::{Poor, Rich};
+
     println!("Enum example");
 
     let press = WebEvent::KeyPress("alt".to_owned());
+    let status = Poor;
+
+    print!("Get Status{:?}",status);
+    match status {
+        // Note the lack of scoping because of the explicit `use` above.
+        Rich => println!("The rich have lots of money!"),
+        Poor => println!("The poor have no money..."),
+    }
+
 
 }
 

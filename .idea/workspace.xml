@@ -10,11 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3200543-9b98-448b-990f-6bbbc7ed9036" name="Default Changelist" comment="array and slice">
-      <change afterPath="$PROJECT_DIR$/src/enum.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/structure.rs" afterDir="false" />
+    <list default="true" id="a3200543-9b98-448b-990f-6bbbc7ed9036" name="Default Changelist" comment="structure + enum type">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/enum.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/enum.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637553649435</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="structure + enum type">
+      <created>1637571730626</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1637571730626</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,7 +125,8 @@
     <MESSAGE value="first com" />
     <MESSAGE value="tuple" />
     <MESSAGE value="array and slice" />
-    <option name="LAST_COMMIT_MESSAGE" value="array and slice" />
+    <MESSAGE value="structure + enum type" />
+    <option name="LAST_COMMIT_MESSAGE" value="structure + enum type" />
   </component>
   <component name="WindowStateProjectService">
     <state x="638" y="355" width="633" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1637554741878">
@@ -135,10 +141,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="449" y="188" width="1022" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1637296345055" />
-    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1637553650684">
+    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1637571731873">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1637553650684" />
+    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1637571731873" />
     <state x="100" y="127" width="1720" height="853" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1637569806131">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
