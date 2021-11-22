@@ -1,8 +1,19 @@
+#[path = "./structure.rs"]
+mod custom_type;
+
+#[path = "./enum.rs"]
+mod enum_example;
+
 fn main() {
     // tuples();
     // array();
-    slice();
+    // slice();
+
+
+    // custom_type::structureExample();
+    enum_example::enum_example();
 }
+
 
 
 fn tuples() {
@@ -30,7 +41,6 @@ fn array() {
 
     //get value of array index
     println!(" array 2: {:}", array[2] );
-
 
 }
 
