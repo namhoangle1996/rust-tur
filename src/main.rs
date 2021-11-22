@@ -1,7 +1,7 @@
-
-
 fn main() {
-    tuples()
+    // tuples();
+    // array();
+    slice();
 }
 
 
@@ -21,12 +21,31 @@ fn tuples() {
     let tuple = (1, "hello", 4.5, true);
     let (a, b, c, d) = tuple;
     println!("get value of a {:?}", a);
+}
+
+fn array() {
+    //  has an array of length
+    let array: &[u8; 3] = &[1u8, 2, 3];
+    println!("{:?}", array);
+
+    //get value of array index
+    println!(" array 2: {:}", array[2] );
+
 
 }
 
+fn slice() {
+    //  has unsized
+    let slice: &[u8] = &[1u8, 2, 3];
+    println!("slice{:?}",slice);
 
-fn arrays() {
+    //get value of array index
+    println!(" slice 2: {:}", slice[1] );
 }
+
+
+
+
 
 
 
