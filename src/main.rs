@@ -4,9 +4,11 @@ mod custom_type;
 #[path = "./enum.rs"]
 mod enum_example;
 
-
 #[path = "./constant.rs"]
 mod constant;
+
+#[path = "./mutability.rs"]
+mod mutability;
 
 fn main() {
     // tuples();
@@ -15,7 +17,8 @@ fn main() {
 
 
     // enum_example::enum_example();
-    constant::constant();
+    // constant::constant();
+    // mutability::example();
 }
 
 

@@ -10,7 +10,7 @@ struct Rectangle {
     b : Point,
 }
 
-pub fn structureExample() {
+pub fn structure_example() {
     println!("Structure");
 
     let point_val = Point{
