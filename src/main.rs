@@ -10,6 +10,9 @@ mod constant;
 #[path = "./mutability.rs"]
 mod mutability;
 
+#[path = "./scopeAndShadowing.rs"]
+mod scope_and_shadowing;
+
 fn main() {
     // tuples();
     // array();
@@ -19,6 +22,8 @@ fn main() {
     // enum_example::enum_example();
     // constant::constant();
     // mutability::example();
+
+    scope_and_shadowing::scope();
 }
 
 
