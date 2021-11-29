@@ -4,14 +4,18 @@ mod custom_type;
 #[path = "./enum.rs"]
 mod enum_example;
 
+
+#[path = "./constant.rs"]
+mod constant;
+
 fn main() {
     // tuples();
     // array();
     // slice();
 
 
-    // custom_type::structureExample();
-    enum_example::enum_example();
+    // enum_example::enum_example();
+    constant::constant();
 }
 
 
