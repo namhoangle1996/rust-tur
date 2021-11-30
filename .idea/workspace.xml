@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -10,9 +13,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3200543-9b98-448b-990f-6bbbc7ed9036" name="Default Changelist" comment="literals with Suffixed and Unsuffixed">
-      <change afterPath="$PROJECT_DIR$/src/inference.rs" afterDir="false" />
+    <list default="true" id="a3200543-9b98-448b-990f-6bbbc7ed9036" name="Default Changelist" comment="inference">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,12 +58,15 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
+    <property name="org.rust.hideNoCargoProjectNotifications/home/nam/rust/lesson-2/src/alias.rs" value="true" />
     <property name="org.rust.hideNoCargoProjectNotifications/home/nam/rust/lesson-2/src/casting.rs" value="true" />
     <property name="org.rust.hideNoCargoProjectNotifications/home/nam/rust/lesson-2/src/constant.rs" value="true" />
     <property name="org.rust.hideNoCargoProjectNotifications/home/nam/rust/lesson-2/src/custom_types.rs" value="true" />
     <property name="org.rust.hideNoCargoProjectNotifications/home/nam/rust/lesson-2/src/custome_types" value="true" />
     <property name="org.rust.hideNoCargoProjectNotifications/home/nam/rust/lesson-2/src/custome_types.rs" value="true" />
     <property name="org.rust.hideNoCargoProjectNotifications/home/nam/rust/lesson-2/src/enum.rs" value="true" />
+    <property name="org.rust.hideNoCargoProjectNotifications/home/nam/rust/lesson-2/src/fromAndInfo.rs" value="true" />
+    <property name="org.rust.hideNoCargoProjectNotifications/home/nam/rust/lesson-2/src/fromAndInto.rs" value="true" />
     <property name="org.rust.hideNoCargoProjectNotifications/home/nam/rust/lesson-2/src/inference.rs" value="true" />
     <property name="org.rust.hideNoCargoProjectNotifications/home/nam/rust/lesson-2/src/literal.rs" value="true" />
     <property name="org.rust.hideNoCargoProjectNotifications/home/nam/rust/lesson-2/src/main.rs" value="true" />
@@ -69,6 +75,11 @@
     <property name="org.rust.hideNoCargoProjectNotifications/home/nam/rust/lesson-2/src/struct.rs" value="true" />
     <property name="org.rust.hideNoCargoProjectNotifications/home/nam/rust/lesson-2/src/structure.rs" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
   </component>
   <component name="RustProjectSettings">
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
@@ -160,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638260566508</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="inference">
+      <created>1638261299829</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1638261299829</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,13 +206,14 @@
     <MESSAGE value="Variable bindings have a scope, and are constrained to live in a block. A block is a collection of statements enclosed by {}" />
     <MESSAGE value="casting type" />
     <MESSAGE value="literals with Suffixed and Unsuffixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="literals with Suffixed and Unsuffixed" />
+    <MESSAGE value="inference" />
+    <option name="LAST_COMMIT_MESSAGE" value="inference" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="638" y="355" width="675" height="410" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1638260696934">
+    <state x="638" y="355" width="675" height="410" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1638264661206">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="638" y="355" width="675" height="410" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1638260696934" />
+    <state x="638" y="355" width="675" height="410" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1638264661206" />
     <state x="743" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1637296130772">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -203,17 +222,17 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="449" y="188" width="1022" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1637296345055" />
-    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1638260567384">
+    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1638261300848">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1638260567384" />
+    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1638261300848" />
     <state x="100" y="127" width="1720" height="853" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1637569806131">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="100" y="127" width="1720" height="853" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1637569806131" />
-    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1637571231999">
+    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1638266208712">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1637571231999" />
+    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1638266208712" />
   </component>
 </project>

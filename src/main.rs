@@ -22,6 +22,8 @@ mod literal;
 #[path = "./inference.rs"]
 mod inference;
 
+#[path = "./fromAndInto.rs"]
+mod from_and_into;
 
 fn main() {
     // tuples();
@@ -37,8 +39,11 @@ fn main() {
 
     // casting::example();
     // literal::example();
-    inference::example();
+    // inference::example();
+    from_and_into::example();
+
 }
+
 
 
 
