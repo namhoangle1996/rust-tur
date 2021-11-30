@@ -19,6 +19,8 @@ mod casting;
 #[path = "./literal.rs"]
 mod literal;
 
+#[path = "./inference.rs"]
+mod inference;
 
 
 fn main() {
@@ -34,7 +36,8 @@ fn main() {
     // scope_and_shadowing::scope();
 
     // casting::example();
-    literal::example();
+    // literal::example();
+    inference::example();
 }
 
 

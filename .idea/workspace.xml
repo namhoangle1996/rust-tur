@@ -10,10 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3200543-9b98-448b-990f-6bbbc7ed9036" name="Default Changelist" comment="casting type">
-      <change afterPath="$PROJECT_DIR$/src/literal.rs" afterDir="false" />
+    <list default="true" id="a3200543-9b98-448b-990f-6bbbc7ed9036" name="Default Changelist" comment="literals with Suffixed and Unsuffixed">
+      <change afterPath="$PROJECT_DIR$/src/inference.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/casting.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/casting.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,6 +61,7 @@
     <property name="org.rust.hideNoCargoProjectNotifications/home/nam/rust/lesson-2/src/custome_types" value="true" />
     <property name="org.rust.hideNoCargoProjectNotifications/home/nam/rust/lesson-2/src/custome_types.rs" value="true" />
     <property name="org.rust.hideNoCargoProjectNotifications/home/nam/rust/lesson-2/src/enum.rs" value="true" />
+    <property name="org.rust.hideNoCargoProjectNotifications/home/nam/rust/lesson-2/src/inference.rs" value="true" />
     <property name="org.rust.hideNoCargoProjectNotifications/home/nam/rust/lesson-2/src/literal.rs" value="true" />
     <property name="org.rust.hideNoCargoProjectNotifications/home/nam/rust/lesson-2/src/main.rs" value="true" />
     <property name="org.rust.hideNoCargoProjectNotifications/home/nam/rust/lesson-2/src/mutability.rs" value="true" />
@@ -153,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638260128281</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="literals with Suffixed and Unsuffixed">
+      <created>1638260566508</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1638260566508</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,13 +187,14 @@
     <MESSAGE value="mutable value" />
     <MESSAGE value="Variable bindings have a scope, and are constrained to live in a block. A block is a collection of statements enclosed by {}" />
     <MESSAGE value="casting type" />
-    <option name="LAST_COMMIT_MESSAGE" value="casting type" />
+    <MESSAGE value="literals with Suffixed and Unsuffixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="literals with Suffixed and Unsuffixed" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="638" y="355" width="675" height="410" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1638260352050">
+    <state x="638" y="355" width="675" height="410" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1638260696934">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="638" y="355" width="675" height="410" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1638260352050" />
+    <state x="638" y="355" width="675" height="410" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1638260696934" />
     <state x="743" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1637296130772">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -195,10 +203,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="449" y="188" width="1022" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1637296345055" />
-    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1638260129425">
+    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1638260567384">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1638260129425" />
+    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1638260567384" />
     <state x="100" y="127" width="1720" height="853" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1637569806131">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
