@@ -13,6 +13,10 @@ mod mutability;
 #[path = "./scopeAndShadowing.rs"]
 mod scope_and_shadowing;
 
+#[path = "./casting.rs"]
+mod casting;
+
+
 fn main() {
     // tuples();
     // array();
@@ -23,7 +27,9 @@ fn main() {
     // constant::constant();
     // mutability::example();
 
-    scope_and_shadowing::scope();
+    // scope_and_shadowing::scope();
+
+    casting::example();
 }
 
 
