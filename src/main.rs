@@ -16,6 +16,10 @@ mod scope_and_shadowing;
 #[path = "./casting.rs"]
 mod casting;
 
+#[path = "./literal.rs"]
+mod literal;
+
+
 
 fn main() {
     // tuples();
@@ -29,7 +33,8 @@ fn main() {
 
     // scope_and_shadowing::scope();
 
-    casting::example();
+    // casting::example();
+    literal::example();
 }
 
 

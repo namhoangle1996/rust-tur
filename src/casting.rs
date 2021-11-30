@@ -14,4 +14,6 @@ pub fn example() {
     // println!(" 232 as a i8 is : {}", 232 as i8);  // error because u8 is from 0 max is 255;
 
     println!("300.0 is {}", 300.0_f32 as u8);  // max u8 is 255 -> so the result is 255
+
+
 }
