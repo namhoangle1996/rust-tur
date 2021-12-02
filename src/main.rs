@@ -25,6 +25,9 @@ mod inference;
 #[path = "./fromAndInto.rs"]
 mod from_and_into;
 
+#[path = "./tryFromAndInto.rs"]
+mod try_from_and_into;
+
 fn main() {
     // tuples();
     // array();
@@ -40,18 +43,16 @@ fn main() {
     // casting::example();
     // literal::example();
     // inference::example();
-    from_and_into::example();
-
+    // from_and_into::example();
+    try_from_and_into::example();
 }
-
-
 
 
 fn tuples() {
     let long_tuple = (1u8, 2u16, 3u32, 4u64,
                       -1i8, -2i16, -3i32, -4i64,
                       0.1f32, 0.2f64,
-                      'a', true  ) ;
+                      'a', true);
 
     // get value of a tuple's index
     println!("long tuple 8's value: {}", long_tuple.8);
@@ -71,17 +72,16 @@ fn array() {
     println!("{:?}", array);
 
     //get value of array index
-    println!(" array 2: {:}", array[2] );
-
+    println!(" array 2: {:}", array[2]);
 }
 
 fn slice() {
     //  has unsized
     let slice: &[u8] = &[1u8, 2, 3];
-    println!("slice{:?}",slice);
+    println!("slice{:?}", slice);
 
     //get value of array index
-    println!(" slice 2: {:}", slice[1] );
+    println!(" slice 2: {:}", slice[1]);
 }
 
 
