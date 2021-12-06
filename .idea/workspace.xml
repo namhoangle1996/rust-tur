@@ -13,10 +13,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3200543-9b98-448b-990f-6bbbc7ed9036" name="Default Changelist" comment="From and into">
-      <change afterPath="$PROJECT_DIR$/src/tryFromAndInto.rs" afterDir="false" />
+    <list default="true" id="a3200543-9b98-448b-990f-6bbbc7ed9036" name="Default Changelist" comment="try From and into">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tryFromAndInto.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/tryFromAndInto.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638409596717</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="try From and into">
+      <created>1638410510989</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1638410510989</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,7 +238,8 @@
     <MESSAGE value="literals with Suffixed and Unsuffixed" />
     <MESSAGE value="inference" />
     <MESSAGE value="From and into" />
-    <option name="LAST_COMMIT_MESSAGE" value="From and into" />
+    <MESSAGE value="try From and into" />
+    <option name="LAST_COMMIT_MESSAGE" value="try From and into" />
   </component>
   <component name="WindowStateProjectService">
     <state x="638" y="355" width="675" height="410" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1638409624024">
@@ -246,10 +254,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="449" y="188" width="1022" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1637296345055" />
-    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1638409597678">
+    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1638410511929">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1638409597678" />
+    <state x="555" y="289" width="800" height="535" key="Vcs.Push.Dialog.v2/0.27.1920.1053@0.27.1920.1053" timestamp="1638410511929" />
     <state x="100" y="127" width="1720" height="853" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1637569806131">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>

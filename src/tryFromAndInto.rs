@@ -1,5 +1,4 @@
 use std::convert::TryFrom;
-use std::convert::TryInto;
 
 #[derive(Debug, PartialEq)]
 struct EvenNumber(i32);
@@ -16,16 +15,21 @@ impl TryFrom<i32> for EvenNumber {
     }
 }
 
-pub fn example() {
-    // TryFrom
-    println!("hello w{:?}",assert_eq!(EvenNumber::try_from(8), Ok(EvenNumber(8))));;
-    assert_eq!(EvenNumber::try_from(5), Err(()));
-    // TryInto
 
-    let result: Result<EvenNumber, ()> = 8i32.try_into();
-    assert_eq!(result, Ok(EvenNumber(8)));
-    let result: Result<EvenNumber, ()> = 5i32.try_into();
+
+pub fn example() {
+
+    // TryFrom
+    println!("{:?}", EvenNumber::try_from(10));
+    assert_eq!(EvenNumber::try_from(10), Ok(EvenNumber(10)));  // if error => panic 
+
+
+    // // TryInto
+    let result: Result<EvenNumber, ()> = 9i32.try_into();   //
     assert_eq!(result, Err(()));
+    assert_eq!(result, Ok(EvenNumber(8)));
+
+    
 }
 
 

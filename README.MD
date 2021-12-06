@@ -1,11 +1,11 @@
 
 
-#Tham khảo 
+# Tham khảo 
 https://doc.rust-lang.org/rust-by-example/
 
 https://stackoverflow.com/questions/24158114/what-are-the-differences-between-rusts-string-and-str
 
 
-# Next : 
+# Cargo run with trace : Command
 
-https://doc.rust-lang.org/rust-by-example/conversion/try_from_try_into.html#tryfrom-and-tryinto
+CARGO_TARGET_X86_64_UNKNOWN_LINUX_GNU_RUNNER='env RUST_BACKTRACE=1' cargo run
