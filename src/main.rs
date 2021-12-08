@@ -28,6 +28,25 @@ mod from_and_into;
 #[path = "./tryFromAndInto.rs"]
 mod try_from_and_into;
 
+#[path = "./flowOfControl/if_else.rs"]
+mod if_else;
+
+
+#[path = "./flowOfControl/loop.rs"]
+mod loop_ex;
+
+#[path = "./flowOfControl/loop_returning.rs"]
+mod loop_returning;
+
+#[path = "./flowOfControl/while.rs"]
+mod while_ex;
+
+#[path = "./flowOfControl/for.rs"]
+mod for_ex;
+
+#[path = "./flowOfControl/match.rs"]
+mod match_ex;
+
 fn main() {
     // tuples();
     // array();
@@ -44,7 +63,14 @@ fn main() {
     // literal::example();
     // inference::example();
     // from_and_into::example();
-    try_from_and_into::example();
+    // try_from_and_into::example();
+
+    // if_else::example();
+    // loop_ex::example();
+    // loop_returning::example();
+    // while_ex::example();
+    // for_ex::example();
+    match_ex::example();
 }
 
 
