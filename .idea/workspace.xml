@@ -14,8 +14,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3200543-9b98-448b-990f-6bbbc7ed9036" name="Default Changelist" comment="continue">
-      <change afterPath="$PROJECT_DIR$/src/flowOfControl/if_let.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/flowOfControl/while_let.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/flowOfControl/if_let.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/flowOfControl/if_let.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,6 +84,7 @@
     <property name="org.rust.hideNoCargoProjectNotificationsC:/Users/hp 8570w/rust-tur/src/flowOfControl/loop_returning.rs" value="true" />
     <property name="org.rust.hideNoCargoProjectNotificationsC:/Users/hp 8570w/rust-tur/src/flowOfControl/match.rs" value="true" />
     <property name="org.rust.hideNoCargoProjectNotificationsC:/Users/hp 8570w/rust-tur/src/flowOfControl/while.rs" value="true" />
+    <property name="org.rust.hideNoCargoProjectNotificationsC:/Users/hp 8570w/rust-tur/src/flowOfControl/while_let.rs" value="true" />
     <property name="org.rust.hideNoCargoProjectNotificationsC:/Users/hp 8570w/rust-tur/src/main.rs" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>

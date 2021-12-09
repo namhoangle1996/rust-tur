@@ -47,9 +47,11 @@ mod for_ex;
 #[path = "./flowOfControl/match.rs"]
 mod match_ex;
 
-
 #[path = "./flowOfControl/if_let.rs"]
 mod if_let;
+
+#[path = "./flowOfControl/while_let.rs"]
+mod while_let;
 
 fn main() {
     // let x :f32 = 65.3;
@@ -79,7 +81,8 @@ fn main() {
     // loop_returning::example();
     // while_ex::example();
     // for_ex::example();
-    if_let::example();
+    // if_let::example();
+    while_let::example();
 }
 
 
