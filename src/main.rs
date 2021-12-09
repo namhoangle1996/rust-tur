@@ -48,6 +48,11 @@ mod for_ex;
 mod match_ex;
 
 fn main() {
+    let x :f32 = 65.3;
+    let y = x as u32 ;
+    print!("{:?}",y + x as u32);
+
+
     // tuples();
     // array();
     // slice();
@@ -69,8 +74,8 @@ fn main() {
     // loop_ex::example();
     // loop_returning::example();
     // while_ex::example();
-    // for_ex::example();
-    match_ex::example();
+    for_ex::example();
+    // match_ex::example();
 }
 
 
