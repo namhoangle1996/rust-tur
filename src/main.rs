@@ -47,10 +47,14 @@ mod for_ex;
 #[path = "./flowOfControl/match.rs"]
 mod match_ex;
 
+
+#[path = "./flowOfControl/if_let.rs"]
+mod if_let;
+
 fn main() {
-    let x :f32 = 65.3;
-    let y = x as u32 ;
-    print!("{:?}",y + x as u32);
+    // let x :f32 = 65.3;
+    // let y = x as u32 ;
+    // print!("{:?}",y + x as u32);
 
 
     // tuples();
@@ -74,8 +78,8 @@ fn main() {
     // loop_ex::example();
     // loop_returning::example();
     // while_ex::example();
-    for_ex::example();
-    // match_ex::example();
+    // for_ex::example();
+    if_let::example();
 }
 
 

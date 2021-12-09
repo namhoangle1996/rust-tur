@@ -13,10 +13,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3200543-9b98-448b-990f-6bbbc7ed9036" name="Default Changelist" comment="try From and into">
+    <list default="true" id="a3200543-9b98-448b-990f-6bbbc7ed9036" name="Default Changelist" comment="continue">
+      <change afterPath="$PROJECT_DIR$/src/flowOfControl/if_let.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/flowOfControl/for.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/flowOfControl/for.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/flowOfControl/match.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/flowOfControl/match.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,8 +44,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
-    <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="go.import.settings.migrated" value="true" />
@@ -77,7 +76,12 @@
     <property name="org.rust.hideNoCargoProjectNotifications/home/nam/rust/lesson-2/src/structure.rs" value="true" />
     <property name="org.rust.hideNoCargoProjectNotifications/home/nam/rust/lesson-2/src/tryFromAndInfo.rs" value="true" />
     <property name="org.rust.hideNoCargoProjectNotifications/home/nam/rust/lesson-2/src/tryFromAndInto.rs" value="true" />
+    <property name="org.rust.hideNoCargoProjectNotificationsC:/Users/hp 8570w/rust-tur/src/casting.rs" value="true" />
     <property name="org.rust.hideNoCargoProjectNotificationsC:/Users/hp 8570w/rust-tur/src/flowOfControl/for.rs" value="true" />
+    <property name="org.rust.hideNoCargoProjectNotificationsC:/Users/hp 8570w/rust-tur/src/flowOfControl/if_else.rs" value="true" />
+    <property name="org.rust.hideNoCargoProjectNotificationsC:/Users/hp 8570w/rust-tur/src/flowOfControl/if_let.rs" value="true" />
+    <property name="org.rust.hideNoCargoProjectNotificationsC:/Users/hp 8570w/rust-tur/src/flowOfControl/loop.rs" value="true" />
+    <property name="org.rust.hideNoCargoProjectNotificationsC:/Users/hp 8570w/rust-tur/src/flowOfControl/loop_returning.rs" value="true" />
     <property name="org.rust.hideNoCargoProjectNotificationsC:/Users/hp 8570w/rust-tur/src/flowOfControl/match.rs" value="true" />
     <property name="org.rust.hideNoCargoProjectNotificationsC:/Users/hp 8570w/rust-tur/src/flowOfControl/while.rs" value="true" />
     <property name="org.rust.hideNoCargoProjectNotificationsC:/Users/hp 8570w/rust-tur/src/main.rs" value="true" />
@@ -261,6 +265,7 @@
     <MESSAGE value="inference" />
     <MESSAGE value="From and into" />
     <MESSAGE value="try From and into" />
-    <option name="LAST_COMMIT_MESSAGE" value="try From and into" />
+    <MESSAGE value="continue" />
+    <option name="LAST_COMMIT_MESSAGE" value="continue" />
   </component>
 </project>
