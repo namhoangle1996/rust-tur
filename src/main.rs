@@ -31,7 +31,6 @@ mod try_from_and_into;
 #[path = "./flowOfControl/if_else.rs"]
 mod if_else;
 
-
 #[path = "./flowOfControl/loop.rs"]
 mod loop_ex;
 
@@ -94,6 +93,7 @@ fn main() {
 
 
 fn tuples() {
+    //a collection that has diff types
     let long_tuple = (1u8, 2u16, 3u32, 4u64,
                       -1i8, -2i16, -3i32, -4i64,
                       0.1f32, 0.2f64,
