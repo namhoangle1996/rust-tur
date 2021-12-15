@@ -58,6 +58,8 @@ mod function_main;
 #[path = "./function/method.rs"]
 mod method;
 
+#[path = "./function/closures.rs"]
+mod closures;
 
 fn main() {
     // let x :f32 = 65.3;
@@ -92,7 +94,8 @@ fn main() {
 
 
     // function_main::example();
-    method::example();
+    // method::example();
+    closures::example();
 }
 
 

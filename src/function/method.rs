@@ -24,7 +24,7 @@ struct Rectangle {
 }
 
 impl Rectangle {
-    fn area(mut self) -> f64 {
+    fn area(&self) -> f64 {
         // `self` gives access to the struct fields via the dot operator
         let  Point { x: x1, y: y1 } = self.p1;
         let  Point { x: x2, y: y2 } = self.p2;
@@ -32,7 +32,7 @@ impl Rectangle {
         ((x1 - x2) * (y1 - y2)).abs()
     }
 
-    fn perimeter(mut self) -> f64 {
+    fn perimeter( &self) -> f64 {
         let  Point { x: x1, y: y1 } = self.p1;
         let  Point { x: x2, y: y2 } = self.p2;
 

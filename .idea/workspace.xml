@@ -20,11 +20,14 @@
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" ENABLED="true" />
     </configurations>
   </component>
+  <component name="CargoProjects">
+    <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="a3200543-9b98-448b-990f-6bbbc7ed9036" name="Default Changelist" comment="try From and into">
-      <change afterPath="$PROJECT_DIR$/src/function/method.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/function/closures.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/function/index.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/function/index.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/function/method.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/function/method.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +42,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Go File" />
+        <option value="Rust File" />
       </list>
     </option>
   </component>
@@ -128,6 +132,7 @@
       <option name="requiredFeatures" value="true" />
       <option name="allFeatures" value="true" />
       <option name="emulateTerminal" value="false" />
+      <option name="withSudo" value="false" />
       <option name="backtrace" value="SHORT" />
       <envs />
       <option name="isRedirectInput" value="false" />
@@ -302,12 +307,6 @@
     <MESSAGE value="continue" />
     <MESSAGE value="while let" />
     <option name="LAST_COMMIT_MESSAGE" value="while let" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="418" y="211" width="1084" height="710" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1639456041784">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="418" y="211" width="1084" height="710" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1639456041784" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
