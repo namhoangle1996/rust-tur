@@ -24,10 +24,10 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3200543-9b98-448b-990f-6bbbc7ed9036" name="Default Changelist" comment="try From and into">
-      <change afterPath="$PROJECT_DIR$/src/function/closures.rs" afterDir="false" />
+    <list default="true" id="a3200543-9b98-448b-990f-6bbbc7ed9036" name="Default Changelist" comment="closures">
+      <change afterPath="$PROJECT_DIR$/src/function/closures/capturing.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/function/method.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/function/method.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/function/closures.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/function/closures/closures.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -116,6 +116,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/function/closures" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
@@ -273,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638410510989</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="closures">
+      <created>1639563810257</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1639563810257</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,7 +314,8 @@
     <MESSAGE value="try From and into" />
     <MESSAGE value="continue" />
     <MESSAGE value="while let" />
-    <option name="LAST_COMMIT_MESSAGE" value="while let" />
+    <MESSAGE value="closures" />
+    <option name="LAST_COMMIT_MESSAGE" value="closures" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
