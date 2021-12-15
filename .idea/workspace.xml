@@ -12,15 +12,28 @@
     </expand>
     <select />
   </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" ENABLED="true" />
+    </configurations>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3200543-9b98-448b-990f-6bbbc7ed9036" name="Default Changelist" comment="while let">
-      <change afterPath="$PROJECT_DIR$/src/function/index.rs" afterDir="false" />
+    <list default="true" id="a3200543-9b98-448b-990f-6bbbc7ed9036" name="Default Changelist" comment="try From and into">
+      <change afterPath="$PROJECT_DIR$/src/function/method.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/function/index.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/function/index.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -45,17 +58,22 @@
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="cidr.known.project.marker" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
     <property name="org.rust.hideNoCargoProjectNotifications/home/nam/rust/lesson-2/src/alias.rs" value="true" />
     <property name="org.rust.hideNoCargoProjectNotifications/home/nam/rust/lesson-2/src/casting.rs" value="true" />
@@ -66,6 +84,8 @@
     <property name="org.rust.hideNoCargoProjectNotifications/home/nam/rust/lesson-2/src/enum.rs" value="true" />
     <property name="org.rust.hideNoCargoProjectNotifications/home/nam/rust/lesson-2/src/fromAndInfo.rs" value="true" />
     <property name="org.rust.hideNoCargoProjectNotifications/home/nam/rust/lesson-2/src/fromAndInto.rs" value="true" />
+    <property name="org.rust.hideNoCargoProjectNotifications/home/nam/rust/lesson-2/src/function/index.rs" value="true" />
+    <property name="org.rust.hideNoCargoProjectNotifications/home/nam/rust/lesson-2/src/function/method.rs" value="true" />
     <property name="org.rust.hideNoCargoProjectNotifications/home/nam/rust/lesson-2/src/inference.rs" value="true" />
     <property name="org.rust.hideNoCargoProjectNotifications/home/nam/rust/lesson-2/src/literal.rs" value="true" />
     <property name="org.rust.hideNoCargoProjectNotifications/home/nam/rust/lesson-2/src/main.rs" value="true" />
@@ -73,6 +93,7 @@
     <property name="org.rust.hideNoCargoProjectNotifications/home/nam/rust/lesson-2/src/scopeAndShadowing.rs" value="true" />
     <property name="org.rust.hideNoCargoProjectNotifications/home/nam/rust/lesson-2/src/struct.rs" value="true" />
     <property name="org.rust.hideNoCargoProjectNotifications/home/nam/rust/lesson-2/src/structure.rs" value="true" />
+    <property name="org.rust.hideNoCargoProjectNotifications/home/nam/rust/lesson-2/src/test/index.rs" value="true" />
     <property name="org.rust.hideNoCargoProjectNotifications/home/nam/rust/lesson-2/src/tryFromAndInfo.rs" value="true" />
     <property name="org.rust.hideNoCargoProjectNotifications/home/nam/rust/lesson-2/src/tryFromAndInto.rs" value="true" />
     <property name="org.rust.hideNoCargoProjectNotificationsC:/Users/hp 8570w/rust-tur/src/casting.rs" value="true" />
@@ -86,6 +107,7 @@
     <property name="org.rust.hideNoCargoProjectNotificationsC:/Users/hp 8570w/rust-tur/src/flowOfControl/while_let.rs" value="true" />
     <property name="org.rust.hideNoCargoProjectNotificationsC:/Users/hp 8570w/rust-tur/src/function/index.rs" value="true" />
     <property name="org.rust.hideNoCargoProjectNotificationsC:/Users/hp 8570w/rust-tur/src/main.rs" value="true" />
+    <property name="org.rust.hideToolchainNotifications" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -94,12 +116,17 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Run" type="CargoCommandRunConfiguration" factoryName="Cargo Command" nameIsGenerated="true">
-      <option name="command" value="run" />
+      <option name="command" value="run " />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <option name="channel" value="NIGHTLY" />
+      <option name="channel" value="DEFAULT" />
       <option name="requiredFeatures" value="true" />
-      <option name="allFeatures" value="false" />
+      <option name="allFeatures" value="true" />
       <option name="emulateTerminal" value="false" />
       <option name="backtrace" value="SHORT" />
       <envs />
@@ -111,6 +138,8 @@
     </configuration>
   </component>
   <component name="RustProjectSettings">
+    <option name="externalLinter" value="Clippy" />
+    <option name="runExternalLinterOnTheFly" value="true" />
     <option name="toolchainHomeDirectory" value="$PROJECT_DIR$/../.cargo/bin" />
     <option name="version" value="2" />
   </component>
@@ -122,6 +151,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1637289468131</updated>
+      <workItem from="1639364849712" duration="853000" />
+      <workItem from="1639371295940" duration="203000" />
+      <workItem from="1639371538930" duration="1016000" />
+      <workItem from="1639455360563" duration="539000" />
     </task>
     <task id="LOCAL-00001" summary="first com">
       <created>1637296801045</created>
@@ -269,5 +302,15 @@
     <MESSAGE value="continue" />
     <MESSAGE value="while let" />
     <option name="LAST_COMMIT_MESSAGE" value="while let" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="418" y="211" width="1084" height="710" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1639456041784">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="418" y="211" width="1084" height="710" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1639456041784" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

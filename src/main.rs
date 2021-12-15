@@ -55,6 +55,10 @@ mod while_let;
 #[path = "./function/index.rs"]
 mod function_main;
 
+#[path = "./function/method.rs"]
+mod method;
+
+
 fn main() {
     // let x :f32 = 65.3;
     // let y = x as u32 ;
@@ -87,8 +91,8 @@ fn main() {
     // while_let::example();
 
 
-    function_main::example();
-
+    // function_main::example();
+    method::example();
 }
 
 
