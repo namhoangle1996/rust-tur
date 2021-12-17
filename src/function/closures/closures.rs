@@ -20,6 +20,6 @@ pub fn example() {
 
 // A closure taking no arguments which returns an `i32`.
 // The return type is inferred.
-    let one = || 1;
+    let one = || String::new();
     println!("closure returning one: {}", one());
 }

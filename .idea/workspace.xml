@@ -24,10 +24,12 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3200543-9b98-448b-990f-6bbbc7ed9036" name="Default Changelist" comment="closures">
-      <change afterPath="$PROJECT_DIR$/src/function/closures/capturing.rs" afterDir="false" />
+    <list default="true" id="a3200543-9b98-448b-990f-6bbbc7ed9036" name="Default Changelist" comment="function :&#10;&#10;init example">
+      <change afterPath="$PROJECT_DIR$/src/thread/part-1.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/part-2.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/lesson-2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lesson-2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/function/closures.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/function/closures/closures.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/function/closures/closures.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/function/closures/closures.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,6 +81,8 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
+    <property name="org.rust.disableDetachedFileInspectionC:/Users/hp 8570w/rust-tur/src/thread/part-1.rs" value="true" />
+    <property name="org.rust.disableDetachedFileInspectionC:/Users/hp 8570w/rust-tur/src/thread/part-2.rs" value="true" />
     <property name="org.rust.hideNoCargoProjectNotifications/home/nam/rust/lesson-2/src/alias.rs" value="true" />
     <property name="org.rust.hideNoCargoProjectNotifications/home/nam/rust/lesson-2/src/casting.rs" value="true" />
     <property name="org.rust.hideNoCargoProjectNotifications/home/nam/rust/lesson-2/src/constant.rs" value="true" />
@@ -121,11 +125,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Run" type="CargoCommandRunConfiguration" factoryName="Cargo Command" nameIsGenerated="true">
       <option name="command" value="run " />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
@@ -140,6 +139,11 @@
       <option name="redirectInputPath" value="" />
       <method v="2">
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -161,6 +165,7 @@
       <workItem from="1639371295940" duration="203000" />
       <workItem from="1639371538930" duration="1016000" />
       <workItem from="1639455360563" duration="539000" />
+      <workItem from="1639758578327" duration="3395000" />
     </task>
     <task id="LOCAL-00001" summary="first com">
       <created>1637296801045</created>

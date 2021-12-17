@@ -64,6 +64,12 @@ mod closures;
 #[path = "./function/closures/capturing.rs"]
 mod closures_capturing;
 
+#[path = "./thread/part-1.rs"]
+mod thread_part1;
+#[path = "./thread/part-2.rs"]
+mod thread_part2;
+
+
 fn main() {
     // let x :f32 = 65.3;
     // let y = x as u32 ;
@@ -73,7 +79,6 @@ fn main() {
     // tuples();
     // array();
     // slice();
-
 
     // enum_example::enum_example();
     // constant::constant();
@@ -99,7 +104,10 @@ fn main() {
     // function_main::example();
     // method::example();
     // closures::example();
-    closures_capturing::example();
+    // closures_capturing::example();
+
+    // thread_part1::example();
+    thread_part2::example();
 }
 
 
