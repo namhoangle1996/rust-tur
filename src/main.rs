@@ -68,6 +68,9 @@ mod closures_capturing;
 mod thread_part1;
 #[path = "./thread/part-2.rs"]
 mod thread_part2;
+#[path = "./thread/part-3.rs"]
+mod thread_part3;
+
 
 
 fn main() {
@@ -107,7 +110,8 @@ fn main() {
     // closures_capturing::example();
 
     // thread_part1::example();
-    thread_part2::example();
+    // thread_part2::example();
+    thread_part3::example();
 }
 
 

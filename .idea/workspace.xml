@@ -24,13 +24,9 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3200543-9b98-448b-990f-6bbbc7ed9036" name="Default Changelist" comment="function :&#10;&#10;init example">
-      <change afterPath="$PROJECT_DIR$/src/thread/part-1.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/part-2.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/lesson-2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lesson-2.iml" afterDir="false" />
+    <list default="true" id="a3200543-9b98-448b-990f-6bbbc7ed9036" name="Default Changelist" comment="thread : sample">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/function/closures/closures.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/function/closures/closures.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thread/part-2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/part-2.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,6 +121,11 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Run" type="CargoCommandRunConfiguration" factoryName="Cargo Command" nameIsGenerated="true">
       <option name="command" value="run " />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
@@ -139,11 +140,6 @@
       <option name="redirectInputPath" value="" />
       <method v="2">
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -165,7 +161,7 @@
       <workItem from="1639371295940" duration="203000" />
       <workItem from="1639371538930" duration="1016000" />
       <workItem from="1639455360563" duration="539000" />
-      <workItem from="1639758578327" duration="3395000" />
+      <workItem from="1639758578327" duration="3659000" />
     </task>
     <task id="LOCAL-00001" summary="first com">
       <created>1637296801045</created>
@@ -286,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639563810257</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="thread : sample">
+      <created>1639762660247</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1639762660247</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,7 +323,8 @@
     <MESSAGE value="continue" />
     <MESSAGE value="while let" />
     <MESSAGE value="closures" />
-    <option name="LAST_COMMIT_MESSAGE" value="closures" />
+    <MESSAGE value="thread : sample" />
+    <option name="LAST_COMMIT_MESSAGE" value="thread : sample" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
