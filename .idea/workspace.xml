@@ -26,7 +26,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a3200543-9b98-448b-990f-6bbbc7ed9036" name="Default Changelist" comment="thread : sample">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thread/part-2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/part-2.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thread/part-3.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/part-3.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +80,7 @@
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
     <property name="org.rust.disableDetachedFileInspectionC:/Users/hp 8570w/rust-tur/src/thread/part-1.rs" value="true" />
     <property name="org.rust.disableDetachedFileInspectionC:/Users/hp 8570w/rust-tur/src/thread/part-2.rs" value="true" />
+    <property name="org.rust.disableDetachedFileInspectionC:/Users/hp 8570w/rust-tur/src/thread/part-3.rs" value="true" />
     <property name="org.rust.hideNoCargoProjectNotifications/home/nam/rust/lesson-2/src/alias.rs" value="true" />
     <property name="org.rust.hideNoCargoProjectNotifications/home/nam/rust/lesson-2/src/casting.rs" value="true" />
     <property name="org.rust.hideNoCargoProjectNotifications/home/nam/rust/lesson-2/src/constant.rs" value="true" />
@@ -120,10 +122,26 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Cargo.Run lesson-2">
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run lesson-2" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="run --package lesson-2 --bin lesson-2" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
     <configuration name="Run" type="CargoCommandRunConfiguration" factoryName="Cargo Command" nameIsGenerated="true">
@@ -142,6 +160,11 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cargo.Run lesson-2" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="RustProjectSettings">
     <option name="externalLinter" value="Clippy" />
@@ -162,6 +185,10 @@
       <workItem from="1639371538930" duration="1016000" />
       <workItem from="1639455360563" duration="539000" />
       <workItem from="1639758578327" duration="3659000" />
+      <workItem from="1639844658398" duration="316000" />
+      <workItem from="1639881966967" duration="3945000" />
+      <workItem from="1640481173994" duration="12705000" />
+      <workItem from="1640789437557" duration="2676000" />
     </task>
     <task id="LOCAL-00001" summary="first com">
       <created>1637296801045</created>
@@ -289,7 +316,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639762660247</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="thread : sample">
+      <created>1639844934123</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1639844934123</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

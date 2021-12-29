@@ -74,6 +74,41 @@ mod thread_part3;
 
 
 fn main() {
+
+    // use std::thread;
+    // use std::sync::{Mutex, Arc};
+    //
+    //
+    //     // thread-safe and lockable
+    //     let safe = Arc::new(Mutex::new(5i32));
+    //
+    //     // more than one handle
+    //     // store them in a vec
+    //     // for convenience
+    //     let mut handles = vec![];
+    //
+    //     for _ in 0..2 {
+    //         // clone the transmitter
+    //         let safe = Arc::clone(&safe);
+    //         // create the thread
+    //         let handle = thread::spawn(move|| {
+    //             // lock the value
+    //             let mut a = safe.lock().unwrap();
+    //             // mutate the value
+    //             *a += 3;
+    //         });
+    //
+    //         // push the handle into the handles
+    //         // vector so we can join them later
+    //         handles.push(handle);
+    //     }
+    //
+    // for i in handles {
+    //     i.join().unwrap();
+    // }
+    //
+    // // lock the value when accessing it
+    // println!("a: {}", *safe.lock().unwrap());
     // let x :f32 = 65.3;
     // let y = x as u32 ;
     // print!("{:?}",y + x as u32);
