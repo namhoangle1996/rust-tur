@@ -24,12 +24,39 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3200543-9b98-448b-990f-6bbbc7ed9036" name="Default Changelist" comment="fix thread share state concurency">
+    <list default="true" id="a3200543-9b98-448b-990f-6bbbc7ed9036" name="Default Changelist" comment="update thread">
+      <change afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/casting.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constant.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/enum.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/flowOfControl/for.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/flowOfControl/if_else.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/flowOfControl/if_let.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/flowOfControl/loop.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/flowOfControl/loop_returning.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/flowOfControl/match.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/flowOfControl/while.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/flowOfControl/while_let.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fromAndInto.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/function/closures/capturing.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/function/closures/closures.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/function/index.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/function/method.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inference.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/literal.rs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thread/part-1.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/part-1.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thread/part-2.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/part-2.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thread/part-3.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/thread/part-3.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mutability.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scopeAndShadowing.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/structure.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/index.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thread/part-1.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thread/part-2.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/thread/part-3.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tryFromAndInto.rs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +71,7 @@
       <list>
         <option value="Go File" />
         <option value="Rust File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -63,12 +91,14 @@
     <option name="directoryName" value="jnidq4yz" />
   </component>
   <component name="ProjectId" id="217Q6Dsk7y2qWEbptEHETVmaC21" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
@@ -129,11 +159,17 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hp 8570w\rust-tur" />
       <recent name="$PROJECT_DIR$/src/function/closures" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunManager" selected="Cargo.Run lesson-2">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Run lesson-2" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="command" value="run --package lesson-2 --bin lesson-2" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
@@ -164,11 +200,6 @@
       <option name="redirectInputPath" value="" />
       <method v="2">
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
